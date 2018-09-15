@@ -38,7 +38,7 @@ figcaption {
 }
 
 .content--top {
-  padding-top: 1.5rem;
+  padding-top: inherit;
 }
 
 .content--middle {
@@ -47,9 +47,10 @@ figcaption {
 
 .main--title {
   display: inline-block;
-  font-family: 'Audiowide', cursive;  
-  font-size: 2.8rem;
-  line-height: 1.75rem;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.8rem;
+  line-height: 1.95rem;
+  text-align: center;
 }
 
 .main--image  {
@@ -86,3 +87,39 @@ figcaption {
 }
 
 /**** Image Box ****/
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::: */
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    .main--title {
+        font-size: 1.8rem;
+        line-height: 1.35rem;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .content--top {
+        padding-top: 1.5rem;
+    }
+    .main--title {
+        font-size: 2.2rem;
+        line-height: 1.75rem;
+        text-align: left;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main--title {
+        font-size: 2.8rem;
+        text-align: left;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
