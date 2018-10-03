@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +7,19 @@
 	<meta name="robots" content="noindex, nofollow" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://brobin.github.io/hacker-bootstrap/css/hacker.css" rel="stylesheet">
+    <link href="http://brobin.github.io/hacker-bootstrap/css/hacker.css" rel="stylesheet">
     <style>
+    .mongo-mars-weather{overflow: hidden;text-overflow: ellipsis;}
     .mongo-data,.dataframe{color: rgb(244, 255, 0);}
     .color-white{color:#FFFFFF;}
     </style>
     <!-- https://github.com/brobin/hacker-bootstrap/    https://brobin.github.io/hacker-bootstrap/ -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32946183-11"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-	
+
 	  gtag('config', 'UA-32946183-11');
 	</script>    
 <body>
@@ -57,13 +58,12 @@
                         <p class="panel-title">Latest Mars News</p>
                     </div>
                     <div class="panel-body">
-                        <h4 class="mongo-data">MarCO Makes Space for Small Explorers</h4>
-                        <h4 class="mongo-data">A pair of NASA CubeSats flying to Mars are opening a new frontier for small spacecraft.</h4>
+                        <h4 class="mongo-data">Opportunity Emerges in a Dusty Picture</h4>
+                        <h4 class="mongo-data">NASA still hasn&#39;t heard from the Opportunity rover, but at least the agency can see it again.</h4>
                     </div>
                 </div>
             </div>
         </div>
-    
         <div class="row">
             <div class="col-md-8">
                 <div class="panel panel-primary">
@@ -71,7 +71,7 @@
                         <p class="panel-title">Featured Mars Image</p>
                     </div>
                     <div class="panel-body">
-                        <img src="https://www.jpl.nasa.gov/spaceimages/images/mediumsize/PIA16715_ip.jpg" alt="Mars Featured Image" class="img-responsive">
+                        <img src="https://www.jpl.nasa.gov/spaceimages/images/mediumsize/PIA09113_ip.jpg" alt="Mars Featured Image" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                                 <p class="panel-title">Current Weather on Mars</p>
                             </div>
                             <div class="panel-body">
-                                <p class="mongo-data">Sol 2171 (2018-09-14), high -12C/10F, low -65C/-84F, pressure at 8.79 hPa, daylight 05:43-17:59</p>
+                                <div class="mongo-mars-weather"><p class="mongo-data">That dusty dot on the slopes of the Mars’ Perseverance Valley is the Opportunity rover, as seen by MRO’s HiRISE camera.  We last heard from Oppy over 100 days ago. https://www.nasa.gov/feature/jpl/opportunity-emerges-in-a-dusty-picture …pic.twitter.com/x9WxH6hIhB</p></div>
                             </div>
                         </div>
                     </div>
@@ -95,62 +95,7 @@
                                 <p class="panel-title">Mars Facts</p>
                             </div>
                             <div class="panel-body">
-                                <table border="1" class="dataframe table table-condensed table-hover">
-                                    <thead>
-                                        <tr style="text-align: right;">
-                                            <th></th>
-                                            <th>Description</th>
-                                            <th>Values</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>0</th>
-                                            <td>Equatorial Diameter:</td>
-                                            <td>6,792 km</td>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <td>Polar Diameter:</td>
-                                            <td>6,752 km</td>
-                                        </tr>
-                                        <tr>
-                                            <th>2</th>
-                                            <td>Mass:</td>
-                                            <td>6.42 x 10^23 kg (10.7% Earth)</td>
-                                        </tr>
-                                        <tr>
-                                            <th>3</th>
-                                            <td>Moons:</td>
-                                            <td>2 (Phobos &amp; Deimos)</td>
-                                        </tr>
-                                        <tr>
-                                            <th>4</th>
-                                            <td>Orbit Distance:</td>
-                                            <td>227,943,824 km (1.52 AU)</td>
-                                        </tr>
-                                        <tr>
-                                            <th>5</th>
-                                            <td>Orbit Period:</td>
-                                            <td>687 days (1.9 years)</td>
-                                        </tr>
-                                        <tr>
-                                            <th>6</th>
-                                            <td>Surface Temperature:</td>
-                                            <td>-153 to 20 °C</td>
-                                        </tr>
-                                        <tr>
-                                            <th>7</th>
-                                            <td>First Record:</td>
-                                            <td>2nd millennium BC</td>
-                                        </tr>
-                                        <tr>
-                                            <th>8</th>
-                                            <td>Recorded By:</td>
-                                            <td>Egyptian astronomers</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <table border="1" class="dataframe table table-condensed table-hover">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Description</th>      <th>Values</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>Equatorial Diameter:</td>      <td>6,792 km</td>    </tr>    <tr>      <th>1</th>      <td>Polar Diameter:</td>      <td>6,752 km</td>    </tr>    <tr>      <th>2</th>      <td>Mass:</td>      <td>6.42 x 10^23 kg (10.7% Earth)</td>    </tr>    <tr>      <th>3</th>      <td>Moons:</td>      <td>2 (Phobos &amp; Deimos)</td>    </tr>    <tr>      <th>4</th>      <td>Orbit Distance:</td>      <td>227,943,824 km (1.52 AU)</td>    </tr>    <tr>      <th>5</th>      <td>Orbit Period:</td>      <td>687 days (1.9 years)</td>    </tr>    <tr>      <th>6</th>      <td>Surface Temperature:</td>      <td>-153 to 20 °C</td>    </tr>    <tr>      <th>7</th>      <td>First Record:</td>      <td>2nd millennium BC</td>    </tr>    <tr>      <th>8</th>      <td>Recorded By:</td>      <td>Egyptian astronomers</td>    </tr>  </tbody></table>
                             </div>
                         </div>
                     </div>
@@ -165,30 +110,35 @@
                     </div>
                     <div class="panel-body">
                         <div class="row">
+                        
                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <a href="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg" class="thumbnail btn">
-                                    <img src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg" alt="Cerberus Hemisphere Enhanced" class="img-responsive">
+                                <a href="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg" class="thumbnail btn">
+                                    <img src="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg" alt="Cerberus Hemisphere Enhanced" class="img-responsive">
                                     <div class="caption"><h4 class="mongo-data">Cerberus Hemisphere Enhanced</h4></div>
                                 </a>
                             </div>
+                        
                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <a href="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg" class="thumbnail btn btn">
-                                    <img src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg" alt="Schiaparelli Hemisphere Enhanced" class="img-responsive">
+                                <a href="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg" class="thumbnail btn">
+                                    <img src="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg" alt="Schiaparelli Hemisphere Enhanced" class="img-responsive">
                                     <div class="caption"><h4 class="mongo-data">Schiaparelli Hemisphere Enhanced</h4></div>
                                 </a>
                             </div>
+                        
                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <a href="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg" class="thumbnail btn">
-                                    <img src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg" alt="Syrtis Major Hemisphere Enhanced" class="img-responsive">
+                                <a href="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg" class="thumbnail btn">
+                                    <img src="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg" alt="Syrtis Major Hemisphere Enhanced" class="img-responsive">
                                     <div class="caption"><h4 class="mongo-data">Syrtis Major Hemisphere Enhanced</h4></div>
                                 </a>
                             </div>
+                        
                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <a href="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg" class="thumbnail btn">
-                                    <img src="https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg" alt="Valles Marineris Hemisphere Enhanced" class="img-responsive">
+                                <a href="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg" class="thumbnail btn">
+                                    <img src="http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg" alt="Valles Marineris Hemisphere Enhanced" class="img-responsive">
                                     <div class="caption"><h4 class="mongo-data">Valles Marineris Hemisphere Enhanced</h4></div>
                                 </a>
                             </div>
+                        
                         </div>
                     </div>
                 </div>
