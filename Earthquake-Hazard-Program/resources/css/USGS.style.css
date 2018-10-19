@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Allerta+Stencil|News+Cycle');
+
+#map, #map--box, body, html {
+    height: 98%;
+}
+
+#map--box {
+    margin-top: 72px;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 6px 8px;    
+}
+
+.legend {
+    line-height: 16px;
+    color: #000;
+}
+
+.legend i {
+    float: left;    
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    opacity: 0.5;
+}
+
+.legend table {
+    text-align: center;
+}
+
+.legend table td:first-child {
+    text-align: left;
+}
+
+.legend table td:last-child {
+    text-align: right;
+}
+
+.dash {
+    font-weight:900;
+}
+
+.nav--title {
+    display: inline-block;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 28px;
+    text-align: center;    
+}
+
+.popup--time, .popup--mag  {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 18px;
+}
+
+.popup--title {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+}
+
+.popup--mag-value {
+    font-family: monospace;
+    font-size: 18px;
+    text-align: right;
+}
+
