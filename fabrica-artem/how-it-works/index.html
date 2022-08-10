@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Smart Art | Fabrica Artem</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+	<link rel="apple-touch-icon" sizes="57x57" href="/static/ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/static/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/static/ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/static/ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/static/ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/static/ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/static/ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/static/ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/static/ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/static/ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/static/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/static/ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/static/ico/favicon-16x16.png">
+	<link rel="manifest" href="/static/ico/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/static/ico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">  
+    
+    <link rel="stylesheet" href="/resources/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/resources/bootstrap/bootstrap.fd.css">
+    <link rel="stylesheet" href="/resources/fancybox/3.5.2/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/resources/fontawesome/5.4.1/css/all.css">
+    <link rel="stylesheet" href="/static/fabrica-artem.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32946183-11"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-32946183-11');
+	</script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div id="artem--header">
+                <a href="/" id="artem--logo">Smart Art</a>
+                <ul id="artem--menu">
+                    <li><a href="/"><span>Home</span></a></li>
+                    <li><a href="/gallery/"><span>Gallery</span></a></li>
+                    <li><a data-href="#" id="artem--upload-modal" class="artem--mouse-pointer"><span>Upload Image</span></a></li>
+                    <li><a href="/how-it-works/"><span>How it Works</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+
+    <article>
+        <section class="section--premise section--area">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1>Premise</h1>
+                </div>
+                <div class="col-sm-9">
+                    <p><span class="artem--title28">Is machine learning "prêt à porter"?</span></p>
+                    <div class="thumbnail pull-left artem--margin-r12">
+                        <a href="/static/img/fashion-shirt.jpg" data-fancybox><img class="img-rounded" src="/static/img/fashion-shirt_sm.jpg">
+                         <div class="caption">
+                            <a href="https://labs.eleks.com/2016/09/designing-apparel-neural-style-transfer.html">Designing Apparel with Neural Style Transfer</a>
+                        </div>
+                    </a>
+                </div>
+                <p>In the fashion industry, ready-to-wear clothes require little or no alterations because they are made in standard sizes to fit most people.</p>
+                <p>With machine learning, there are a plethora of trained algorithms and neural networks available. Just add the data and they are "ready to go."</p>
+                <p>Little or no work is needed. Is it really that easy?</p>
+                <p><span class="artem--title28">The Smart Art Experiment</span></p>
+                <p>Neural style transfer is the process of using deep learning and neural networking to compose an image in the style of another image.</p>
+                <p>The process starts with a <em>content image</em> and an <em>artistic image</em>. Machine learning then iteratively generates an image that is similar to the content but drawn in the desired artistic style.</p>
+                <div class="thumbnail">
+                    <a href="/static/img/100-arch-escher-result.jpg" data-fancybox><img class="img-rounded" src="/static/img/100-arch-escher-result_sm.jpg"></a>
+                    <div class="caption">St. Louis Arch in the style of an M.C. Escher</div>
+                </div>
+                <p>Three methodologies' respective algorithms were reviewed and their output compared. Each uses the same <em>Convolutional Neural Network</em> (CNN) <a href="https://www.mathworks.com/help/deeplearning/ref/vgg19.html">VGG-19</a>. It has been trained on more than a million images from the <a href="http://www.image-net.org/">ImageNet</a> database. The network is 19 layers deep and can classify images into 1000 object categories.</p>
+            </div>
+        </section>
+
+        <section class="section--analysis section--area">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1>Analysis</h1>
+                </div>
+                <div class="col-sm-9">
+                    <p><span class="artem--title28">Implementation of Neural Style Transfer</span></p>
+                    <ul class="nav nav-tabs">
+                        <li><a data-toggle="tab" href="#method1"><span class="artem--title22">Neural Doodle</span></a></li>
+                        <li><a data-toggle="tab" href="#method2"><span class="artem--title22">Py Style Transfer</span></a></li>
+                        <li><a data-toggle="tab" href="#method3"><span class="artem--title22">Neural Style Transfer</span></a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="method1" class="tab-pane fade well">
+                            <!--alexjc/neural-doodle-->
+                            <ul class="list-group"><li class="list-group-item">
+<p>Using the VGG19 neural network and the Theano and Lasagne libraries, Neural Doodle allows the user to take a piece of art or picture and rearrange the stylistic elements to synthesize a new work of art using user-made semantic maps to identify the style image's major elements, and where these elements should appear in the synthesized image.</p>
+<p>These synthesized images look very similar to the originals. The program only works well with pictures or paintings of repeating patterns (e.g. leaves on a bush, skin of fruit), not more complicated images (e.g. buildings, people).</p>                            
+                            </li></ul>
+                        </div>
+                        <div id="method2" class="tab-pane fade well">
+                            <!--cheind/py-style-transfer-->
+                            <ul class="list-group"><li class="list-group-item">
+<p>Py Style Transfer uses an abbreviated version of VGG19 (with the addition of Markov Random Field at higher levels), PyTorch, and Neural Doodle's semantic maps to transfer the style of one image onto the content of another.</p>
+<p>The synthesized images are visually coherent, and preserve the content of the originals while implementing elements of the style image to supplement the shading. The resulting images are small, and the user has little control over the values of variables used.</p>                            
+                            </li></ul>
+                        </div>
+                        <div id="method3" class="tab-pane fade well">
+                            <!--titu1994/Neural-Style-Transfer-->
+                            <ul class="list-group"><li class="list-group-item">
+<p>Neural Style Transfer runs the Keras library on top of Tensorflow with VGG19 (or 16) to transfer the style of one image onto the content of another. The program allows the user to manipulate many of the variables, use multiple images as style sources, and mask off certain aspects of the content image either to remain unchanged, or to have a secondary style source applied.</p>
+<p>Access to the large number of variables does require the user to fine-tune the parameters over multiple iterations, and the style of abstract art patterns cannot be fully realized without sacrificing content.</p>                            
+                            </li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section--conclusion section--area">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1>Conclusion</h1>
+                </div>
+                <div class="col-sm-9">
+                    <p>Machine learning, deep learning and neural networks are fundamentally disrupting practically every business sector across multiple industries in some facet or another. People use and interact with machine learning every day. Outcomes become a touchpoint that has an impact (direct and indirect) in people's lives.</p>
+                    <p>Machine learning and artificial intelligence can go wrong. But how will we know?</p>
+                    <p>What is important to remember: Code is written by humans, data is collected by humans, inputs for the algorithms are decided by humans and that all can be biased or misleading.</p>
+                    <p>Machine learning is a tool like any other of technology. You would not want your computer mouse to decide your credit rating. Neither should machine learning. However, both are tools that are used for such a purpose.</p>
+                    <p>AI learns about how the world has been. It picks up on trends of the status quo -- what once was. It does not know how the world <em>ought</em> to be. That is for humans to decide.</p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+</div>
+
+
+    <script src="/resources/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="/resources/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/resources/bootstrap/bootstrap.fd.mod.js"></script>
+    <script src="/resources/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <script src="/static/fabrica-artem.js"></script>
+</body>
+
+</html>
